@@ -63,6 +63,24 @@
     <ClCompile Include="WwiseManager.cpp">
       <Filter>Source Files\WwiseIntegration</Filter>
     </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Source Files\RayLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>Source Files\RayLib</Filter>
+    </ClCompile>
+    <ClCompile Include="colors.cpp">
+      <Filter>Source Files\RayLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source Files\RayLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Blocks.cpp">
+      <Filter>Source Files\RayLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\RayLib</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\Ak3DObjects.h">
@@ -388,6 +406,21 @@
     </ClInclude>
     <ClInclude Include="WwiseManager.h">
       <Filter>Source Files\WwiseIntegration</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Source Files\RayLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Source Files\RayLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Source Files\RayLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Source Files\RayLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\RayLib</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -133,6 +133,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="Blocks.cpp" />
     <ClCompile Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkDefaultLowLevelIODispatcher.cpp" />
     <ClCompile Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkFileLocationBase.cpp" />
     <ClCompile Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkFilePackage.cpp" />
@@ -143,6 +145,10 @@
     <ClCompile Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Common\AkPlatformProfilerHookStubs.cpp" />
     <ClCompile Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Win32\AkDefaultIOHookDeferred.cpp" />
     <ClCompile Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Win32\stdafx.cpp" />
+    <ClCompile Include="colors.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="Position.cpp" />
     <ClCompile Include="RayGameMain.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="WwiseManager.cpp" />
@@ -151,6 +157,7 @@
     <Natvis Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\ak.natvis" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Block.h" />
     <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\Ak3DObjects.h" />
     <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkAtomic.h" />
     <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\include\AK\SoundEngine\Common\AkAtomicSpinFuncs.h" />
@@ -257,6 +264,10 @@
     <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Win32\AkDefaultIOHookDeferred.h" />
     <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Win32\AkFileHelpers.h" />
     <ClInclude Include="C:\Audiokinetic\Wwise2025.1.4.9062\SDK\samples\SoundEngine\Win32\stdafx.h" />
+    <ClInclude Include="Colors.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="Position.h" />
     <ClInclude Include="RayGameMain.h" />
     <ClInclude Include="WwiseManager.h" />
   </ItemGroup>
